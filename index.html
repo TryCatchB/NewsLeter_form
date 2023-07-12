@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NewsLetter_form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="subscribe-form">
+        <div class="subscribe-form__content">
+          <div class="subscribe-form__info info">
+            <h1 class="info__title">Stay updated!</h1>
+            <p class="info__text">
+              Join 60,000+ product managers receiving monthly updates on:
+            </p>
+            <ul class="info__list">
+              <li class="info__item">
+                <img
+                  class="info__icon"
+                  src="assets/images/icon-list.svg"
+                  alt="Icon"
+                />
+                <p class="info__text">
+                  Product discovery and building what matters
+                </p>
+              </li>
+              <li class="info__item">
+                <img
+                  class="info__icon"
+                  src="assets/images/icon-list.svg"
+                  alt="Icon"
+                />
+                <p class="info__text">
+                  Measuring to ensure updates are a success
+                </p>
+              </li>
+              <li class="info__item">
+                <img
+                  class="info__icon"
+                  src="assets/images/icon-list.svg"
+                  alt="Icon"
+                />
+                <p class="info__text">And much more!</p>
+              </li>
+            </ul>
+            <form action="#" class="info__form form-info">
+              <div class="form-info__content">
+                <h5 class="form-info__title">Email address</h5>
+                <input
+                  type="email"
+                  class="form-info__input"
+                  placeholder="email@company.com"
+                />
+                <button type="submit" class="form-info__button button">
+                  Subscribe to monthly newsletter
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="subscribe-form__image">
+            <img
+              src="assets/images/illustration-sign-up-desktop.svg"
+              alt="image"
+            />
+          </div>
+          <div class="subscribe-form__image-mobile">
+            <img
+              src="assets/images/illustration-sign-up-mobile.svg"
+              alt="image"
+            />
+          </div>
+        </div>
+        <div class="popup">
+          <div class="popup__content">
+            <div class="popup__icon">
+              <img src="assets/images/icon-success.svg" alt="Icon" />
+            </div>
+            <h1 class="popup__title">Thanks for subscribing!</h1>
+            <p class="popup__text">
+              A confirmation email has been sent to
+              <a href="mailto:>ash@loremcompany.com">ash@loremcompany.com.</a>
+              Please open it and click the button inside to confirm your
+              subscription.
+            </p>
+            <button type="button" class="popup__button button">
+              Dismiss message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
